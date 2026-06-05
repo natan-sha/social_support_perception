@@ -1,4 +1,4 @@
-# Who in the EU feels less social support?
+# Who in the EU feels having less social support?
 
 ## Overview
 
@@ -11,6 +11,15 @@ The visualization:
 - displays additional indicators (Strong, Intermediate) on hover,
 - focuses exclusively on EU countries,
 - includes custom styling and annotations for presentation-quality output.
+
+##Some conclusions
+The strong feeling of social support isn't a given even among Europians who are citizens by birth. 
+
+![alt text](<Screenshot 2026-06-05 at 19.22.49.png>)
+
+However, when it comes to perception of social support of non-EU migrants, they report a poor support more often - the common trend for all EU countries. In Finland, 40% of the non-EU respondents rate social support as "poor", the highest level in the EU, followed by Greece with 35%. 
+
+![alt text](<Screenshot 2026-06-05 at 19.22.49-1.png>)
 
 ## Notebooks
 
@@ -49,6 +58,6 @@ project_perception/
 ├── perception.ipynb
 ├── perception3.ipynb
 ├── .gitignore
-├── requirements.txt
+├── pyproject.toml
 └── README.md
 ```
