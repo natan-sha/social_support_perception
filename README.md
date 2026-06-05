@@ -15,11 +15,11 @@ The visualization:
 ##Some conclusions
 The strong feeling of social support isn't a given even among Europians who are citizens by birth. 
 
-![alt text](<Screenshot 2026-06-05 at 19.22.49.png>)
+![aPreview citizens](<preview_citizens.png>)
 
 However, when it comes to perception of social support of non-EU migrants, they report a poor support more often - the common trend for all EU countries. In Finland, 40% of the non-EU respondents rate social support as "poor", the highest level in the EU, followed by Greece with 35%. 
 
-![alt text](<Screenshot 2026-06-05 at 19.22.49-1.png>)
+![Preview Non-EU migrants](<preview_non_eu_migrants.png>)
 
 ## Notebooks
 
@@ -38,16 +38,13 @@ Source: Eurostat 2019, 'Overall perceived social support by sex, age and country
 
 ## Setup
 
-```bash
-pip install -r requirements.txt
+uv sync
 ```
 
-Then open either notebook in Jupyter:
+To launch Jupyter via uv: 
 
-```bash
-jupyter notebook
+uv run jupyter notebook
 ```
-
 ## Structure
 ```
 project_perception/
@@ -55,8 +52,8 @@ project_perception/
 │   ├── citizens_by_birth.xlsx
 │   ├── eu_migrants_2019.xlsx
 │   └── non_eu_countries_2019.xlsx
-├── perception.ipynb
-├── perception3.ipynb
+├── perception_analysis.ipynb
+├── perception_viz.ipynb
 ├── .gitignore
 ├── pyproject.toml
 └── README.md
