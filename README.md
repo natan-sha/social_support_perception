@@ -12,14 +12,16 @@ The visualization:
 - focuses exclusively on EU countries,
 - includes custom styling and annotations for presentation-quality output.
 
-##Some conclusions
+## Some conclusions
+
 The strong feeling of social support isn't a given even among Europians who are citizens by birth. 
 
-![aPreview citizens](<preview_citizens.png>)
+![Preview citizens](<preview_citizens.png>)
 
 However, when it comes to perception of social support of non-EU migrants, they report a poor support more often - the common trend for all EU countries. In Finland, 40% of the non-EU respondents rate social support as "poor", the highest level in the EU, followed by Greece with 35%. 
 
-![Preview Non-EU migrants](<preview_non_eu_migrants.png>)
+![Preview non-EU migrants](preview_non_eu_migrants.png)
+
 
 ## Notebooks
 
